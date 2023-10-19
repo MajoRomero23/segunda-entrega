@@ -1,0 +1,748 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Molengo&family=Montserrat:wght@300&display=swap');
+
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/** para llamar las fuentes para las paginas
+font-family: 'Hind Madurai', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Molengo', sans-serif;
+**/
+
+/**Diseño del inicio**/
+.headerIndex {
+background-color:white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 1.25rem .625rem;}
+
+.headerIndex a{
+color: #F05F77;
+font-family: 'Montserrat', sans-serif;
+text-decoration: none;
+font-size: 1.25rem;
+display: flex;}
+
+.tablaNav{
+display:flex;
+gap: .625rem;
+list-style: none;
+align-items: center;
+padding-right: 3.125rem;}
+
+.tablaNav li a{
+text-decoration: none;
+color: black;
+background-color: white;
+font-family: 'Montserrat', sans-serif;
+font-size: 1rem;
+list-style: none;}
+
+.mainIndex {background-color: #FEC3C7;
+width: 100%;
+height: 100%;
+display: flex;}
+
+.tituloInicio {
+color:#F05F77;
+font-family: 'Montserrat', sans-serif;
+text-align: left;
+font-size: 2.5rem;
+background-color: none;
+padding-top: 15.65rem ;
+padding-right: 1.25rem;}
+
+.parrafoInicio {
+color: #574143;
+font-family: 'Molengo', sans-serif;
+text-align: left;
+font-size: 1.25rem;
+padding-right: 1.25rem;}
+
+.donasRosas{
+align-items: left;
+width:45.4375rem ;
+height: 43.75rem ;
+margin-right: 1.25rem;
+padding-top: 1.875rem;
+padding-bottom: 9.375rem;}
+
+.footerInicio{
+display: flex;
+width: 100%;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+background-color: #FAEEF2;}
+
+.footerInicio h2{
+color: #F05F77;
+font-family: 'Montserrat', sans-serif;
+text-align: left;
+font-size: .9375rem;}
+
+.footerInicio p{
+color: black;
+font-family: 'Hind Madurai', sans-serif;
+text-align: left;
+font-size: .75rem;}
+
+.cardPastel {
+width: 12.5rem;
+height: 7.5rem;
+background-color: #FAEEF2;
+margin: 0rem;   
+padding-top: .625rem;
+padding-left: .625rem;
+padding-right: .625rem;}
+
+.cardContactanos{
+width: 21.875rem;
+height: 6.25rem;
+background-color: #FAEEF2;
+margin: 0rem;   
+padding-top: .625rem;
+padding-left: 4.375rem;
+padding-right: .625rem;}
+
+.cardNovedades{
+width: 21.875rem;
+height: 6.25rem;
+background-color: #FAEEF2;
+margin: 0rem;   
+padding-top: .625rem;
+padding-left: .625rem;
+padding-right: .625rem;}
+
+@media(max-width: 48rem){
+    .mainIndex {background-color: #FEC3C7;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;}
+        
+        .tituloInicio {
+        color:#F05F77;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5rem;
+        background-color: none;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        padding-top: 0rem ;
+        padding-right: 1.25rem;
+        }
+        
+        .parrafoInicio {
+        color: #574143;
+        font-family: 'Molengo', sans-serif;
+        text-align: center;
+        font-size: 1.25rem;
+        padding-bottom: 9.375rem;}
+        
+        .donasRosas{
+        align-items: center;
+        width:31.25rem ;
+        height: 31.25rem ;
+        padding-bottom: 1.25rem;}
+}
+
+@media(max-width: 26.5625rem){
+        
+        .parrafoInicio {
+        color: #574143;
+        font-family: 'Molengo', sans-serif;
+        text-align: center;
+        font-size: 1.25rem;
+        padding-bottom: 6.25rem;}
+        
+        .donasRosas{
+        align-items: center;
+        width:21.875rem ;
+        height: 25rem ;
+        padding-bottom: 0rem;}
+
+}
+
+/** hasta aquí ya está**/
+
+/**Diseño de Nosotros**/
+
+.mainNosotros {background-color: white;}
+
+.mainNosotros h2 {
+font-family: 'Montserrat', sans-serif;
+color: #F05F77;
+font-size: 1.5625rem}
+
+.mainNosotros p {
+font-family: 'Hind Madurai', sans-serif;
+color: black;
+font-size: 1.25rem}
+
+/**Nuestra historia**/
+
+.nuestraHistoria {
+display: flex;
+padding-left: 3.125rem;
+margin-right: 1.875rem;
+align-items: center;
+text-align: justify;
+padding-right: 3.125rem;}
+
+.imgNuestra{
+align-items: left;
+width:37.3125rem ;
+height: 68.75rem ;
+margin-right: 1.25rem;
+padding-top: 1.875rem;}
+
+/**AnaRamirez**/
+.anaRamirez{
+display: flex;
+padding-left: 3.125rem;
+margin-right: 1.875rem;
+padding-right: 3.125rem;
+align-items: center;
+text-align: justify;}
+
+.imgAna{
+align-items: left;
+width:37.5rem;
+height: 24.375rem ;
+margin-right: 1.25rem;
+padding-top: 1.875rem;}
+
+
+/**AndreaPerez**/
+
+.imgAndrea {
+align-items: center;
+width:37.5rem;
+height: 25rem ;
+margin-left: 1.25rem;
+padding-top: 1.875rem;
+padding-bottom: 1.25rem;}
+
+.andreaPerez{
+display: flex;
+padding-left: 3.125rem;
+margin-right: 1.875rem;
+align-items: center;
+text-align: justify;}
+
+@media(max-width: 48rem){
+    .headerIndex {
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.25rem .625rem;}
+    
+        .tablaNav{
+        display:flex;
+        gap: .3125rem;
+        list-style: none;
+        align-items: center;
+        padding-left: 1.875rem;
+        gap: .9375rem;
+        padding-top: 1.25rem;}
+    
+        .tablaNav li a{
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.25rem;
+        list-style: none;}
+
+        .mainNosotros h2 {
+        font-family: 'Montserrat', sans-serif;
+        color: #F05F77;
+        font-size: 1.25rem}
+            
+        .mainNosotros p {
+        font-family: 'Hind Madurai', sans-serif;
+        color: black;
+        font-size: 1.25rem;}
+
+        .mainNosotros{
+            margin-left: 1.875rem;
+            margin-right:0px;
+        }
+
+        /**Nuestra Historia**/
+        .nuestraHistoria {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        justify-content: space-around;}
+
+        .imgNuestra{
+        align-items: center;
+        width:43.75rem ;
+        height: 68.75rem ;
+        padding-top: .625rem;
+        justify-content: space-around;
+        padding-bottom: 1.25rem;}
+
+        /**AnaRamirez**/
+        .anaRamirez{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        justify-content: space-around;}
+
+        .imgAna{
+        align-items: center;
+        width: 43.75rem;;
+        height: 31.25rem ;
+        padding-top: 1.875rem;
+        padding-bottom: .625rem;
+        justify-content: space-around;}
+
+        /**AndreaPerez**/
+        .imgAndrea {
+        align-items: center;
+        width: 43.75rem;
+        height: 31.25rem;
+        padding-top: 1.875rem;
+        padding-bottom: 1.25rem;
+        justify-content: space-around;}
+
+        .andreaPerez{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        padding-top: 3.125rem;
+        padding-right: 3.125rem;
+        justify-content: space-around;}
+
+/**footer**/
+
+    .cardPastel {
+        width: 15.625rem;
+        height: 8.75rem;
+        background-color: #FAEEF2;
+        margin: 0rem;   
+        padding-top: .625rem;
+        padding-left: .625rem;
+        padding-right: 1.25rem;
+        text-align: justify;}
+        
+        .cardContactanos{
+        width: 6.25rem;
+        height: 6.25rem;
+        background-color: #FAEEF2;
+        margin: 0rem;   
+        padding-top: .625rem;
+        padding-left: 0rem;
+        padding-right: .0px;}
+        
+        .cardNovedades{
+        width: 15.625rem;
+        height: 8.75rem;
+        background-color: #FAEEF2;
+        margin: 0rem;   
+        padding-top: .625rem;
+        padding-left: 1.875rem;
+        padding-right: 1.875rem;}
+        }
+
+
+@media(max-width: 26.5625rem){
+    .headerIndex {
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.25rem .625rem;}
+    
+        .tablaNav{
+        display:flex;
+        gap: .625rem;
+        list-style: none;
+        align-items: center;
+        padding-left: 1.875rem;}
+    
+        .tablaNav li a{
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: .75rem;
+        list-style: none;}
+
+        .mainNosotros h2 {
+        font-family: 'Montserrat', sans-serif;
+        color: #F05F77;
+        font-size: 1rem}
+            
+        .mainNosotros p {
+        font-family: 'Hind Madurai', sans-serif;
+        color: black;
+        font-size: .75rem;}
+
+        .mainNosotros{
+            margin-right: 0rem;
+        }
+
+        /**Nuestra Historia**/
+        .nuestraHistoria {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        justify-content: space-around;}
+
+        .imgNuestra{
+        align-items: center;
+        width:18.75rem ;
+        height: 37.5rem ;
+        margin-right: 0rem;
+        padding-top: .625rem;
+        justify-content: space-around;}
+
+        /**AnaRamirez**/
+        .anaRamirez{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        justify-content: space-around;}
+
+        .imgAna{
+        align-items: center;
+        width: 18.75rem;;
+        height: 15.625rem ;
+        margin-right: 0rem;
+        padding-top: 1.875rem;
+        padding-bottom: .625rem;
+        justify-content: space-around;}
+
+        /**AndreaPerez**/
+        .imgAndrea {
+        align-items: center;
+        width: 18.75rem;
+        height: 16.875rem;
+        margin-right: 0rem;
+        margin-left: 0rem;
+        padding-top: 1.875rem;
+        padding-bottom: 1.25rem;}
+
+        .andreaPerez{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        justify-content: space-around;
+        padding-top: 1.875rem;
+    padding-right: 3.125rem;}
+
+/**footer**/
+
+    .cardPastel {
+        width: 21.875rem;
+        height: 6.25rem;
+        background-color: #FAEEF2;
+        margin: 0rem;   
+        padding-top: .625rem;
+        padding-left: .625rem;
+        padding-right: .625rem;}
+        
+        .cardContactanos{
+        width: 21.875rem;
+        height: 6.25rem;
+        background-color: #FAEEF2;
+        margin: 0rem;   
+        padding-top: .625rem;
+        padding-left: 10px;
+        padding-right: .0px;}
+        
+        .cardNovedades{
+        width: 21.875rem;
+        height: 6.25rem;
+        background-color: #FAEEF2;
+        margin: 0rem;   
+        padding-top: .625rem;
+        padding-left: .625rem;
+        padding-right: .625rem;}
+    }
+
+
+
+/**Diseño de Productos**/
+
+.mainProductos {background-color: #FFF5F6;}
+
+.mainProductos h1 {
+color: #F05F77;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-size: 1.875rem;}
+
+.mainProductos h2 {
+color: #A5637C;
+font-family: 'Molengo', sans-serif;
+font-size: 1.5625rem;
+text-align: center;}
+
+.mainProductos h3 {
+color: black;
+font-family: 'Molengo', sans-serif;
+font-size: 1.25rem;
+text-align: center;
+font-weight: bold;}
+
+.mainProductos p{
+color: black;
+font-family: 'Hind Madurai', sans-serif;
+text-align: center;}
+
+/**Galletas**/
+.cardGalletas{
+width: 21.875rem;
+height: 27rem;
+background-color: #FAEEF2;
+margin: 40px;
+border-radius: 5%;}
+
+.cardGalletas div {
+width: 100%;
+height: 20.9375rem;
+object-fit: contain;}
+
+.cardGalletas div img {
+width: 100%;
+height: 100%;
+object-fit: cover;}
+
+/**Pasteles**/
+.cardPasteles{
+width: 21.875rem;
+height: 27rem;
+background-color: #FAEEF2;
+margin: 40px;
+border-radius: 5%;}
+
+.cardPasteles div {
+width: 100%;
+height: 18.75rem;
+object-fit: contain;}
+
+.cardPasteles div img {
+width: 100%;
+height: 100%;
+object-fit: cover;}
+
+/**Cupcakes**/
+.cardCupcakes{
+width: 21.875rem;
+height: 25rem;
+background-color: #FAEEF2;
+margin: 40px;
+border-radius: 5%;}
+
+.cardCupcakes div {
+width: 100%;
+height: 20rem;
+object-fit: contain;}
+
+.cardCupcakes div img {
+width: 100%;
+height: 100%;
+object-fit: cover;}
+
+/**Donas**/
+.cardDonas{
+width: 21.875rem;
+height: 26rem;
+background-color: #FAEEF2;
+margin: 40px;
+border-radius: 5%;}
+
+.cardDonas div {
+width: 100%;
+height: 18.75rem;
+object-fit: contain;}
+
+.cardDonas div img {
+width: 100%;
+height: 100%;
+object-fit: cover;}
+
+.cardContainer{
+display: flex;
+width: 100%;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;}
+
+
+
+/**Diseño de Novedades**/
+
+.mainNovedades h1 {
+color: #F05F77;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-size: 1.875rem;
+padding-top: 1.25rem;
+}
+
+.mainNovedades p {
+font-family: 'Hind Madurai', sans-serif;
+color: black;
+font-size: 1.25rem;
+text-align: center;
+padding-top: 1.25rem;}
+
+.botonNovedades {
+background-color: #F05F77;
+color: white;
+width: 12.5rem;
+padding: 1.25rem;
+margin: 2.5rem;
+position: center;
+border: none;
+text-decoration: none;
+font-family: 'Molengo', sans-serif;
+font-size: 1.25rem;}
+
+
+.gridContainer{
+display: grid;
+width: 100%;
+height:93.75rem ;
+grid-template-columns: repeat(2,20.9375rem);
+grid-template-rows: repeat(4,20.9375rem);    
+justify-content: center;
+align-items: center;
+gap: 10px;
+padding-top: 3.125rem;}
+
+
+@media(max-width: 48rem){
+
+    .mainNovedades h1 {
+        color: #F05F77;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5625rem;
+        padding-top: 1.25rem;
+        }
+        
+        .mainNovedades p {
+        font-family: 'Hind Madurai', sans-serif;
+        color: black;
+        font-size: 1.25rem;
+        text-align: center;
+        padding-top: 1.25rem;}
+
+
+    .gridContainer{
+        display: grid;
+        width: 100%;
+        height:100% ;
+        grid-template-columns: repeat(1,20.9375rem);
+        grid-template-rows: repeat(8,20.9375rem);    
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        padding-top: 3.125rem;}
+        
+}
+
+@media(max-width: 26.5625rem){
+    .botonNovedades {
+        background-color: #F05F77;
+        color: white;
+        width: 9.375rem;
+        padding: .625rem;
+        margin: 2.5rem;
+        position: center;
+        border: none;
+        text-decoration: none;
+        font-family: 'Molengo', sans-serif;
+        font-size: .75rem;}
+
+        .mainNovedades h1 {
+            color: #F05F77;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.25rem;
+            padding-top: 1.25rem;
+            }
+            
+            .mainNovedades p {
+            font-family: 'Hind Madurai', sans-serif;
+            color: black;
+            font-size: 1rem;
+            text-align: center;
+            padding-top: 1.25rem;}
+
+
+}
+
+/**Diseño de Contacto**/
+
+.mainContactos{
+background-color: #FAEEF2;
+    display: flex;  
+    justify-content: space-around;}
+
+.mainContactos h1{
+color: #F05F77;
+display: flex;
+text-align: center;
+font-family: 'Montserrat', sans-serif;}
+
+.mainContactos h2{
+color: #F05F77;
+text-align: center;
+font-family: 'Montserrat', sans-serif;}
+
+.formularioContacto label{
+font-family: 'Hind Madurai', sans-serif;
+color: black;}
+
+.formularioContacto input{
+font-family: 'Hind Madurai', sans-serif;
+color: black;}
+
+    .formularioContacto{
+        display: flex;
+        flex-direction: column;
+        padding:50px 55px;
+        text-align: center;
+        width: 21.25rem;
+    }
+
+.formularioContacto label{
+    font-family: 'Hind Madurai', sans-serif;
+    color: black;}
+    
+    .formularioContacto input{
+    font-family: 'Hind Madurai', sans-serif;
+    color: black;}
+
+
+.mapaContacto{
+    padding-top: 3.125rem;
+    text-align: left;}
+
+    @media(max-width: 26.5625rem){
+        .mainContactos{
+            background-color: #FAEEF2;
+                display: flex; 
+                flex-direction: column; 
+                justify-content: space-around;}
+
+    }
+
